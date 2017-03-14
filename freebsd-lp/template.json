@@ -12,9 +12,9 @@
         "fetch": [
             {
                 "name": "os", 
-                "url": "http://download.freenas.org/vm-templates/freebsd-10.3-zfs/os.img.gz", 
-                "sha256": "5df82b4ceec8439129be4be0cd156a16ce845a1ba193abdd729a26c7aa74d79c", 
-                "size": 434838312
+                "url": "http://10.20.0.179/os.img.gz", 
+                "sha256": "aa5fe0c283b731a9f6bc8645d45c0cdb8048a1d9456e7b5be751afef047f388b", 
+                "size": 156200415
             }
         ]
     }, 
@@ -30,7 +30,7 @@
             "type": "DISK", 
             "name": "os", 
             "properties": {
-                "size": 17179869184, 
+                "size": 4294967296, 
                 "mode": "AHCI", 
                 "source": "os"
             }
