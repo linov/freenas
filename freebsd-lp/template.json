@@ -12,7 +12,7 @@
         "fetch": [
             {
                 "name": "os", 
-                "url": "http://10.20.0.179/os.img.gz", 
+                "url": "http://localhost/os.img.gz", 
                 "sha256": "aa5fe0c283b731a9f6bc8645d45c0cdb8048a1d9456e7b5be751afef047f388b", 
                 "size": 156200415
             }
