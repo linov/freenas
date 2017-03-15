@@ -13,8 +13,8 @@
             {
                 "name": "os", 
                 "url": "http://localhost/os.img.gz", 
-                "sha256": "aa5fe0c283b731a9f6bc8645d45c0cdb8048a1d9456e7b5be751afef047f388b", 
-                "size": 156200415
+                "sha256": "e16e64067558dc47d1a56dabe9589b664152ef70d289a331c721b90903b18e8b", 
+                "size": 82739764
             }
         ]
     }, 
@@ -30,7 +30,7 @@
             "type": "DISK", 
             "name": "os", 
             "properties": {
-                "size": 4294967296, 
+                "size": 1996800000, 
                 "mode": "AHCI", 
                 "source": "os"
             }
