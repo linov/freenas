@@ -1,6 +1,6 @@
 {
     "template": {
-        "name": "freebsd-10.3-zfs", 
+        "name": "AgniOS-5.0.4", 
         "author": "Jordan Hubbard <jkh@ixsystems.com>", 
         "description": "FreeBSD 10.3 image with root on ZFS", 
         "created_at": {
