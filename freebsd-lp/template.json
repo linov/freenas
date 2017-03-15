@@ -31,7 +31,7 @@
             "name": "os", 
             "properties": {
                 "size": 1996800000, 
-                "mode": "AHCI", 
+                "mode": "VIRTIO", 
                 "source": "os"
             }
         }, 
