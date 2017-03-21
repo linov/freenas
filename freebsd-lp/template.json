@@ -13,8 +13,8 @@
             {
                 "name": "os", 
                 "url": "http://localhost/os.img.gz", 
-                "sha256": "e16e64067558dc47d1a56dabe9589b664152ef70d289a331c721b90903b18e8b", 
-                "size": 82739764
+                "sha256": "6f3f3059c379f6d7df0f6b56bde55675c0dc89a7bc0324c0dbf833713b9be92c", 
+                "size": 81793265
             }
         ]
     }, 
