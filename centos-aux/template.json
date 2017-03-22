@@ -1,0 +1,48 @@
+{
+    "template": {
+        "name": "centos-aux", 
+        "author": "Linov Suresh <linov.suresh@gmail.com>", 
+        "description": "Centos 7 image", 
+        "created_at": {
+            "$date": "2016-05-25T19:20:00"
+        }, 
+        "updated_at": {
+            "$date": "2017-01-08T16:22:54"
+        }, 
+        "files": true, 
+        "fetch": [
+            {
+                "name": "os", 
+                "url": "http://localhost/centos.img.gz", 
+                "sha256": "c43a4cc02fd34c262e05959242888d8ff25ea1e74a764d675dc7d3b3638818fe", 
+                "size": 1467451929
+            }
+        ]
+    }, 
+    "config": {
+        "ncpus": 1, 
+        "bootloader": "GRUB", 
+        "memsize": 1024,
+        "minmemsize": 512,
+        "boot_directory": "grub"
+    }, 
+    "devices": [
+        {
+            "type": "NIC", 
+            "name": "nic", 
+            "properties": {
+                "mode": "NAT"
+            }
+        }, 
+        {
+            "type": "DISK", 
+            "name": "os", 
+            "properties": {
+                "size": 51539607552, 
+                "mode": "AHCI", 
+                "source": "os"
+            }
+        }
+    ], 
+    "guest_type": "linux64"
+}
